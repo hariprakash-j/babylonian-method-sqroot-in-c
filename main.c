@@ -51,7 +51,7 @@ int main () {
     float sq_val = bab_sq_root(num);
     float percent_accuracy = cal_accuracy(num, sq_val*sq_val);
 
-    printf("the square root of %i is %f, which is %f percent accurate(square is %f)\n", num, sq_val, percent_accuracy, sq_val*sq_val);
+    printf("The square root of %i is %f, which is %f percent accurate(square is %f)\n", num, sq_val, percent_accuracy, sq_val*sq_val);
 
     return 1;
 }
